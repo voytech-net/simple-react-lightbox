@@ -83,7 +83,8 @@ const initialState = {
     onCountSlides: () => {},
     onSlideChange: () => {},
     onLightboxClosed: () => {},
-    onLightboxOpened: () => {}
+    onLightboxOpened: () => {},
+    onImageDownload: () => {}
   }
 }
 
