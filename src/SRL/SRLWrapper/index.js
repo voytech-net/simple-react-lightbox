@@ -435,7 +435,8 @@ SRLWrapper.propTypes = {
     onCountSlides: PropTypes.func,
     onLightboxClosed: PropTypes.func,
     onLightboxOpened: PropTypes.func,
-    onSlideChange: PropTypes.func
+    onSlideChange: PropTypes.func,
+    onImageDownload: PropTypes.func
   }),
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
@@ -511,6 +512,7 @@ SRLWrapper.defaultProps = {
     onCountSlides: () => {},
     onSlideChange: () => {},
     onLightboxClosed: () => {},
-    onLightboxOpened: () => {}
+    onLightboxOpened: () => {},
+    onImageDownload: () => {}
   }
 }
